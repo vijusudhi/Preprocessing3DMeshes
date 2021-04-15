@@ -1,9 +1,0 @@
-# Test
-python test.py --dataroot datasets/human_seg --name human_seg --arch meshunet --dataset_mode segmentation --ncf 32 64 128 256 --ninput_edges 2280 --pool_res 1800 1350 600 --resblocks 3 --batch_size 12 --export_folder meshes   
-
-# Train
-python train.py --dataroot datasets\human_seg --name human_seg --arch meshunet --dataset_mode segmentation --ncf 32 64 128 256 --ninput_edges 596455 --pool_res 1800 1350 600 --resblocks 3 --batch_size 1 --lr 0.001 --num_aug 20 --slide_verts 0.2
-
-# GPU credentials
-ssh AnnikaNiemann@141.44.18.89 -p 2200
-pw: studentMeshGen
